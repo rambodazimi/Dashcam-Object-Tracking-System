@@ -1,5 +1,13 @@
 # DashCam-Insights
 
+
+[img1](https://i.ibb.co/yq4NcJs/Screenshot-2024-04-13-at-7-32-50-PM.png)
+[img2](https://i.ibb.co/p24PbH7/Screenshot-2024-04-13-at-7-33-22-PM.png)
+[img3](https://i.ibb.co/BwPpR3Z/Screenshot-2024-04-13-at-7-45-44-PM.png)
+[img4](https://i.ibb.co/f49v1Bn/Screenshot-2024-04-13-at-7-46-50-PM.png)
+[img5](https://i.ibb.co/3WKMGtV/Screenshot-2024-04-13-at-7-57-44-PM.png)
+
+
 ## Introduction
 In this project, we leverage computer vision to analyze traffic footage from a Montreal dashcam. We focus on two videos: one captured on McGill Drive and the other on Sainte-Catherine Street. Our goal is to detect and count cars and pedestrians in each video, further differentiating between parked and moving vehicles.
 
