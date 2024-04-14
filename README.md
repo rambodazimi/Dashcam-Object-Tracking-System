@@ -1,7 +1,6 @@
 # DashCam-Insights
 
 
-![img10](https://i.ibb.co/yq4NcJs/Screenshot-2024-04-13-at-7-32-50-PM.png)
 
 ![img2](https://i.ibb.co/p24PbH7/Screenshot-2024-04-13-at-7-33-22-PM.png)
 
@@ -16,6 +15,8 @@
 In this project, we leverage computer vision to analyze traffic footage from a Montreal dashcam. We focus on two videos: one captured on McGill Drive and the other on Sainte-Catherine Street. Our goal is to detect and count cars and pedestrians in each video, further differentiating between parked and moving vehicles.
 
 We employed the YOLOv8 object detection model for this task. YOLOv8 not only identifies objects but also estimates their speed, allowing us to distinguish parked cars from those in motion. Finally, we present the counts for both videos, including the number of parked cars passed, moving cars passed, and pedestrians detected. We'll then delve deeper into the implementation details.
+
+![img1](https://i.ibb.co/yq4NcJs/Screenshot-2024-04-13-at-7-32-50-PM.png)
 
 
 ## Tools and Frameworks Used
