@@ -1,22 +1,13 @@
 # DashCam-Insights
 
-
-
 ![img2](https://i.ibb.co/p24PbH7/Screenshot-2024-04-13-at-7-33-22-PM.png)
-
-![img3](https://i.ibb.co/BwPpR3Z/Screenshot-2024-04-13-at-7-45-44-PM.png)
-
-![img4](https://i.ibb.co/f49v1Bn/Screenshot-2024-04-13-at-7-46-50-PM.png)
-
-![img5](https://i.ibb.co/3WKMGtV/Screenshot-2024-04-13-at-7-57-44-PM.png)
-
 
 ## Introduction
 In this project, we leverage computer vision to analyze traffic footage from a Montreal dashcam. We focus on two videos: one captured on McGill Drive and the other on Sainte-Catherine Street. Our goal is to detect and count cars and pedestrians in each video, further differentiating between parked and moving vehicles.
 
 We employed the YOLOv8 object detection model for this task. YOLOv8 not only identifies objects but also estimates their speed, allowing us to distinguish parked cars from those in motion. Finally, we present the counts for both videos, including the number of parked cars passed, moving cars passed, and pedestrians detected. We'll then delve deeper into the implementation details.
 
-![img1](https://i.ibb.co/yq4NcJs/Screenshot-2024-04-13-at-7-32-50-PM.png)
+![img3](https://i.ibb.co/BwPpR3Z/Screenshot-2024-04-13-at-7-45-44-PM.png)
 
 
 ## Tools and Frameworks Used
@@ -40,6 +31,8 @@ To tackle this project effectively, we divided it into manageable steps:
 ### Parked vs. Moving Car Classification: To differentiate parked cars from moving vehicles, we leveraged YOLOv8's built-in speed estimation functionality. However, to better suit our specific needs, we customized certain functions within the model.
 
 ### Result Generation and Visualization: Finally, we processed all the data to generate the final results, including counts for each category. Additionally, we exported the output videos with visual representations of the detected objects, allowing us to present the findings to the user.
+
+![img4](https://i.ibb.co/f49v1Bn/Screenshot-2024-04-13-at-7-46-50-PM.png)
 
 
 ## Detailed Implementation
@@ -66,6 +59,9 @@ In the final stage, we present the outputs and results to the user in a comprehe
 
 The first video showcases the detection and counting of both cars and pedestrians. This video provides a visual representation of the detected objects, facilitating an understanding of the traffic flow and pedestrian activity within the scene.
 The second video is dedicated to calculating the speed of vehicles and determining their motion status, whether they are moving or parked. This video enables a deeper analysis of vehicle dynamics, aiding in identifying patterns of movement and distinguishing between parked and actively moving vehicles.
+
+![img5](https://i.ibb.co/3WKMGtV/Screenshot-2024-04-13-at-7-57-44-PM.png)
+
 
 Following the visual presentations, we also provide users with the numerical values calculated by our model, including:
 
