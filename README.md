@@ -7,10 +7,14 @@ We employed the YOLOv8 object detection model for this task. YOLOv8 not only ide
 
 
 ## Tools and Frameworks Used
-[Python 3.12]
-[OpenCV]
-[Ultralytics (YOLOv8) – Modified version]
-[NumPy]
+
+Python 3.12
+
+OpenCV
+
+Ultralytics (YOLOv8) – Modified version
+
+NumPy
 
 
 ## Implementation Steps
@@ -59,25 +63,25 @@ Following the visual presentations, we also provide users with the numerical val
 
 
 ## Program Performance
-Tracking and counting both Cars and Pedestrians (with generating the output video)
+### Tracking and counting both Cars and Pedestrians (with generating the output video)
 
 McGill: 1:58 minutes
 
 St. Catherines: 2:43 minutes
 
-Tracking and counting Cars only (without generating any output video)
+### Tracking and counting Cars only (without generating any output video)
 
 McGill: 1:37 minutes
 
 St. Catherines: 2:11 minutes
 
-Speed Estimation
+### Speed Estimation
 
 McGill: 2:01 minutes
 
 St. Catherines: 2:39 minutes
 
-Total
+### Total
 
 McGill: 5:36 minutes
 
